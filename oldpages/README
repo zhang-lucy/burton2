@@ -1,0 +1,25 @@
+MAINTAINING THE BURTON 2 WEBSITE
+********************************
+These are some useful bits of information about the burton 2 website.
+if you change something about the way things work, please try to keep
+this file up to date so that the people that come after you can
+understand what's going on.
+
+
+Updating pages
+===============
+In order to edit pages, you will need permissions. Get someone with
+burton2-www permissions to add you to the group. Once you are a part
+of the group, you should be able to edit any of the files in this
+directory.
+
+All of the pages are written in HTML; there are no frameworks or
+magical things happening. The most complicated page (at the time
+this document was created) is the Floor Map. Instructions follow
+for how to update this file.
+
+
+Updating the Map
+=================
+To update the map, edit script.js. there are instructions for how to 
+properly insert new people into the list there.

@@ -1,0 +1,416 @@
+:root {
+    --teal-color: rgb(44, 196, 188);
+    --green-color: rgb(0, 83, 69);
+    --red-color: rgb(230, 71, 71);
+    --scarlet-color: rgb(158, 16, 71);
+    --gray-color: rgb(198, 204, 204);
+    --sidebar-width: 230px;
+    --small-screen-width: 830px;
+}
+  
+.tealColor {
+    color: var(--teal-color);
+}
+.greenColor {
+    color: var(--green-color);
+}
+.redColor {
+    color: var(--red-color);
+}
+.scarletColor {
+    color: var(--scarlet-color);
+}
+.grayColor {
+    color: var(--gray-color);
+}
+
+
+body,p,h1,h2,h3,h4,h5,h6 {font-family: 'Josefin Sans', serif;} /* change to sans-serif when readt */
+h1 {font-size: 60px;}
+h2 {font-size: 40px;}
+h3 {font-size: 28px;}
+h4 {font-size: 20px;}
+/* borders */
+#main-box {
+    border: blue 2px solid;
+}
+#main-sub-box0 {
+    border: rgb(0, 204, 255) 2px solid;
+}
+#side-box {
+    border: red 2px dashed;
+}
+#sidebar {
+    border: orange 2px solid;
+}
+#main-sub-box1 {
+    border: green 2px dashed;
+}
+#main-sub-box2 {
+    border: greenyellow 2px dashed;
+
+}
+/* borders */
+
+
+
+
+body {
+    text-align: center;
+    /* background-color: var(--gray-color); */
+}
+
+
+.fab {
+    vertical-align: middle;
+    font-size: 32px;
+    padding-right: 2px;
+    text-decoration: none;
+}
+
+#side-box {
+    text-align: center;
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: var(--sidebar-width); /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+}
+#side-box2 {
+    text-align: center;
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: var(--sidebar-width); /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+#sidebar {
+    text-align: center;
+}
+#sidebar2 {
+    margin-left: 52px;
+    margin-top: 30px;
+    text-align: left;
+    line-height: 1.7em;
+    /* width: 100%; */
+    /* margin: auto; */
+    /* padding: 10px; */
+    /* margin: 10px; */
+}
+
+.sidebar-item {
+    line-height: 1.5em;
+    vertical-align: middle;
+    font-size: 30px;
+    text-decoration: none;
+    text-emphasis: none;
+    color: var(--scarlet-color);
+}
+.sidebar-item2 {
+    vertical-align: middle;
+    font-size: 20px;
+    text-decoration: none;
+    text-emphasis: none;
+    color: var(--scarlet-color);
+}
+.bc-link {
+    vertical-align: middle;
+    font-size: 12px;
+    text-decoration: none;
+    text-emphasis: none;
+    color: gray;
+}
+
+#main-box {
+    width: 100%;
+}
+#main-sub-box0 {
+    margin:0px;
+    padding: 0px;
+}
+#main-sub-box1 {
+    line-height: 3em;
+    margin-left: var(--sidebar-width);
+    margin-right: var(--sidebar-width);
+}
+#main-sub-box2 {
+    text-align: left;
+    width: 600px;
+    margin: auto;
+    line-height: 1em;
+    /* margin-left: var(--sidebar-width);
+    margin-right: var(--sidebar-width); */
+    padding-left: var(--sidebar-width);
+    padding-right: var(--sidebar-width);
+}
+
+
+
+#main-logo{
+    position: relative;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#title {
+    font-size: 60px;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0;
+    vertical-align: middle;
+    padding-top: 10px;
+}
+/* #subtitle {
+    color: var(--teal-color);
+    font-size: 40px;
+} */
+
+#rightbar2 {
+    position: relative;
+    margin-top: 200px;
+    background-color: var(--scarlet-color);
+
+}
+.to-top {
+    color: gray;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.pw-btn {
+    padding:40px;
+    font-size: 30px;
+    color: white;
+    background-color: var(--teal-color);
+}
+
+.pw-btn:hover {
+    color: rgb(168, 168, 168);
+    background-color: rgb(29, 134, 129);;
+}
+
+
+/* delete */
+
+
+#boxx {
+    text-align: center;
+    vertical-align: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* border: solid 2px red; */
+}
+
+.ig-span {
+    vertical-align: middle;
+    font-size: 15px;
+    color: rgb(71, 211, 216);
+    font-family: sans-serif;
+    text-emphasis: none;
+    text-decoration: none;
+}
+.fabb {
+    vertical-align: middle;
+    color: rgb(71, 211, 216);
+    font-size: 30px;
+    font-family: sans-serif;
+    text-emphasis: none;
+}
+
+#message {
+    color: rgb(158, 16, 71);
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+
+
+.w3-hide{display:none!important}
+
+/* @media (max-width:1205px){.w3-auto{max-width:95%}} */
+
+@media (max-width:1030px){
+    body {
+        padding: 0px;
+        margin: 0px;
+    }
+    /*
+    h1 - title 
+    h2 - subtitle
+    h3 - header 
+    h4 - sub-header*/
+    h1 {font-size: 80px;}
+    h2 {font-size: 40px;}
+    h3 {font-size: 60px;}
+    h4 {font-size: 45px;}
+    p {font-size: 45px;}
+    .to-top {font-size: 38px;}
+    .bc-link {font-size: 38px;}
+    #main-box {
+        width: 100%;
+        margin-top: 600px;
+    }
+
+    
+    #main-sub-box0 {
+        line-height: 3em;
+        margin:0px;
+        padding: 0px;
+        /* margin-top: 180px; */
+    }
+    #main-sub-box1 {
+        line-height: 3em;
+        margin:0px;
+        padding: 0px;
+        margin-top: 180px;
+    }
+    
+    #main-sub-box2 {
+        text-align: left;
+        width: 80%;
+        line-height: 3em;
+        margin:auto;
+        padding: 0px;
+    }
+    #main-pic {
+        max-width: 100%;
+        max-height: 100%;
+        min-width: 100%;
+        min-height: 100%;
+        display: block;
+    }
+    #main-logo {
+        max-width: 450px;
+        max-height: 450px;
+    }
+    .footer-div {
+        background-color: var(--teal-color);
+    }
+    .footer-txt {
+        color: rgba(235, 235, 235, .75)
+    }
+    
+    #side-box {
+        width: 100%;
+        height: auto;
+        position: absolute;
+    }
+    #sidebar {
+        display: inline-block;
+        margin-top: 0px;
+        margin-left: 5%;
+        vertical-align: top;
+    }
+    .sidebar-item {
+        font-size: 58px;
+        line-height: 1.2em;
+    }
+    .fab {font-size: 60px; line-height: 1.3em;}
+
+    
+    .w3-hide-small{display:none!important}
+    .w3-mobile{display:block;width:100%!important}
+}
+
+
+/* @media (max-width:768px){.w3-modal-content{width:500px}.w3-modal{padding-top:50px}} */
+@media (min-width:1030px){.w3-hide-large{display:none!important}}
+/* @media (max-width:992px) and (min-width:601px){.w3-hide-medium{display:none!important}} */
+
+
+#side-box-mobile {
+    background-color: var(--scarlet-color);
+    /* border: red medium solid; */
+    padding-top: 5%;
+    text-align: center;
+    width: 100%;
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 0px;
+}
+#side-box2-mobile {
+    text-align: center;
+    width: 100%;
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 0px;
+}
+#sidebar-mobile {
+    /* margin-left: 70px; */
+    /* border: red 2px solid; */
+    display: inline-block;
+    margin-top: 6%;
+    margin-left: 5%;
+    vertical-align: top;
+    /* padding-top: 5%; */
+    text-align: center;
+    /* width: 100%; */
+    /* margin: auto; */
+    /* padding: 10px; */
+    /* margin: 10px; */
+}
+
+
+.sidebar-item-mobile {
+    vertical-align: middle;
+    font-size: 65px;
+    text-decoration: none;
+    text-emphasis: none;
+    color: white;
+}
+
+.mob-nav {
+    border: blue 2px solid;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 180px;
+    border: red 2px solid;
+    /* vertical-align: middle; */
+    text-align: left;
+}
+.mob-nav-fill {
+    background-color: var(--scarlet-color);
+    /* margin-top: 20px; */
+}
+.nav-span {
+    color: white;
+    
+    line-height: 190px; /* must be same as .mob-nav height */
+    font-size: 100px;
+    text-decoration: none;
+    padding-right: 50px;
+}
+.nav-home {
+    float: right;
+    font-size: 80px;
+}
+#main-logo-nav {
+    position: relative;
+    float: left;
+    max-height: 100%;
+    max-width: 100%;
+}
+.nav-padding {
+    padding-top: 180px;
+} 
+
+
+
+
+
+/* COLOR FLIP SIDEBAR */
+#side-box {
+    background-color: var(--scarlet-color);
+}
+.sidebar-item, .sidebar-item2, .fab {
+    color: white;
+}
