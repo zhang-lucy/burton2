@@ -19,33 +19,6 @@ function password() {
     }
 }
 
-function init() {
-    // var a = window.innerWidth;
-    // console.log("screen width:");
-    // console.log(a);
-    // var title = document.getElementById("title");
-    // title.innerHTML = "Welcome to Burton 2! "+a;
-
-}
-
-function hoverFunc() {
-  console.log("2 loaded");
-
-  var logo = document.getElementById("side-box-hover");
-  console.log(logo);
-
-  logo.addEventListener("onmouseover", function(event) {   
-      // highlight the mouseenter target
-      console.log("hover");
-      logo.style.opacity = "1";
-  })
-}
-
-
-
-
-
-
 
 
 
