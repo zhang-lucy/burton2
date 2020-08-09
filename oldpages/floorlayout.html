@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<meta http-equiv="Content-Style-Type" content="text/css" />
+		<meta http-equiv="Content-Script-Type" content="text/javascript" />
+		<title>Burton 2::The Floor</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script type="text/javascript" src="script.js"> </script>
+	</head>
+	<body onload="floormap.init()">
+		<div class="container">
+			<div class="banner">
+				<img src="burton2.png" alt="burton 2"/>
+			</div>
+			<div class="navigation">
+				<a href="index.html">Home</a> | <a href="floor.html">The Floor</a> | <a href="studybreak.html">Study Breaks</a> | <a href="calendar.html">Calendar</a>
+			</div>
+			<div class="body">
+			     <a href="index.html">Home</a> : <a href="floor.html">Floor</a> : Floor Layout
+			     <h2>Where Do People Live?</h2>
+				<p>mouse over the room to display the resident.</p>
+				<img src="Burton2.jpg" usemap="#burton2" alt="burton2 floor map" />
+				<map name="burton2" id="burton2">
+				<area shape="poly" alt="241c"  coords="530,478,529,512,546,509,550,593,576,591,576,567,662,565,658,477" />
+				<area shape="poly" alt="233c"  coords="657,291,657,200,576,204,575,177,551,177,551,263,529,264,532,290" />
+				<area shape="rect" alt="233G"  coords="529,17,659,70" />
+				<area shape="rect" alt="233f"  coords="579,73,657,133" />
+				<area shape="rect" alt="233d"  coords="577,139,655,199" />
+				<area shape="rect" alt="233b"  coords="485,175,547,262" />
+				<area shape="rect" alt="233a"  coords="425,176,481,263" />
+				<area shape="rect" alt="232a"  coords="160,334,227,396" />
+				<area shape="rect" alt="232b"  coords="160,261,226,332" />
+				<area shape="rect" alt="232c"  coords="217,191,271,257" />
+				<area shape="rect" alt="232d"  coords="275,173,379,260" />
+				<area shape="rect" alt="241k"  coords="429,631,482,722" />
+				<area shape="rect" alt="241b"  coords="485,512,547,590" />
+				<area shape="rect" alt="241a"  coords="428,509,480,594" />
+				<area shape="rect" alt="242"  coords="208,632,426,716" />
+				<area shape="rect" alt="241f"  coords="579,630,657,697" />
+				<area shape="rect" alt="241d"  coords="578,568,657,627" />
+				<area shape="rect" alt="241g"  coords="550,500,657,557" />
+				<area shape="rect" alt="253a"  coords="272,1088,337,1147" />
+				<area shape="rect" alt="253b"  coords="272,1151,335,1218" />
+				<area shape="rect" alt="252d"  coords="274,966,383,1053" />
+				<area shape="rect" alt="252c"  coords="214,968,272,1034" />
+				<area shape="rect" alt="252b"  coords="167,900,229,957" />
+				<area shape="rect" alt="252a"   coords="167,840,230,898" />
+				<area shape="poly" alt="254a"  coords="555,963,529,966,529,937,661,934,660,986,552,982" />
+				<area shape="rect" alt="254b"  coords="576,985,656,1042" />
+				<area shape="rect" alt="254c"  coords="577,1045,657,1105" />
+				<area shape="rect" alt="254d"  coords="575,1109,657,1217" />
+				<area shape="rect" alt="254f"  coords="478,1130,573,1215" />
+				<area shape="rect" alt="251a"  coords="21,812,84,861" />
+				<area shape="rect" alt="251b"  coords="21,867,83,925" />
+				<area shape="rect" alt="251C"  coords="22,930,85,990" />
+				<area shape="rect" alt="251d"  coords="23,992,110,1088" />
+				<area shape="rect" alt="231a"  coords="23,366,83,422" />
+				<area shape="rect" alt="231b"  coords="21,305,83,365" />
+				<area shape="rect" alt="231c"  coords="20,245,83,303" />
+				<area shape="rect" alt="231d"  coords="20,140,110,240" />
+				</map>
+			</div>
+			<div class="base">
+				<a href="http://validator.w3.org/check?uri=referer">Valid XHTML.</a>
+			</div>
+			<div style="position:fixed; left: 60%; bottom: 10px; width: 200px; border: solid 1px #999999; background-color: #c6c9eB; color: #447; padding:5px">
+				<b><span id="room" style="font-size:120%">Room Number</span></b><br/><span id="resident" style="font-size:120%">Resident Name</span>
+				<span id="email"></span>
+			</div>
+		</div>
+	</body>
+</html>

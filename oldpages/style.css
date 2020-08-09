@@ -1,0 +1,36 @@
+body{
+	background-color: #ffffff;
+	background-image: url('bg3.png');
+	/*color: #555555;*/
+	color: #333333;
+	margin:10px auto;
+	width:700px;
+	padding: 0px;
+	font-size:80%;
+	border:solid 1px #999999;
+	font-family: Helvetica, Verdana, Sans-serif;
+}
+.navigation{
+	text-align: right;
+	padding: 10px;
+}
+.body{
+	padding: 10px;
+	line-height:160%;
+}
+.container{
+	background-color: #ffffff;
+}
+a{
+	color: #8689AB;border:none;
+}
+.base{
+	text-align: center;
+	background-color:#c6c9eB;
+	color:#555555;
+	padding:20px;
+}
+img{
+	color: none;
+	border: none;
+}
