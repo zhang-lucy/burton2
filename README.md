@@ -3,6 +3,6 @@
 
 Create branch with your own changes, and then pull request with Diego as the reviewer
 
-Webmaster: Diego Yanez-Laguna (contact to be added to collaborators)
+**Webmaster:** Diego Yanez-Laguna (contact to be added to collaborators)
 
-Collaborators: Mohammed Shafim
+**Collaborators:** Mohammed Shafim
