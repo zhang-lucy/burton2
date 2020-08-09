@@ -1,5 +1,5 @@
 # burton2 site - work in progress
-Athena Locker Path Command: cd /afs/athena.mit.edu/activity/b/burton2/www
+**Athena Locker Path Command:** cd /afs/athena.mit.edu/activity/b/burton2/www
 
 Create branch with your own changes, and then pull request with Diego as the reviewer
 
