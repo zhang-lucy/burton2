@@ -3,6 +3,8 @@
 window.onscroll = function() {scrollFunction()};
 
 
+
+
 var y, h, nav, navmob, sb, logo, hoverPath;
 var hmob = 180;
 
@@ -38,6 +40,20 @@ document.body.onload = function () {
     h = nav.offsetHeight;
     y = h - hmob;
 
+    console.log('2 loaded');
+    var logo = document.getElementById("main-logo");
+
+    logo.addEventListener("mouseover", function(event) { 
+        console.log("hover") 
+        logo.src = "img/main_logo_hover.png" 
+        // highlight the logo
+        // logo.style.opacity = "1";
+    })
+    logo.addEventListener("mouseout", function(event) {   
+        console.log("hover")  
+        logo.src = "img/main_logo.png" 
+        // logo.style.opacity = "0";
+})
 
 }
 
